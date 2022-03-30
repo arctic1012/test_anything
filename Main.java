@@ -6,18 +6,18 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("hello");
-        int a = 5;
+        int a = 3;
 
         Scanner scan = new Scanner(System.in);
         String answer = null;
 
         System.out.println("for test run..?  Y/N: ");
 
-        answer = scan.nextLine();
+        ans = scan.nextLine();
 
-        System.out.println(answer);
+        System.out.println(ans);
 
-        if (answer.equals("Y")) {
+        if (ans.equals("Y")) {
             for (int i = 1; i < 10; i++) {
                 int sum = a + i;
                 System.out.println(sum + " <<for grammer test");
